@@ -26,6 +26,8 @@ public class UserService extends userImplBase {
             // return failure message
             response.setResponseCode(String.valueOf(400)).setResponseMessage("FAILURE");
         }
+        responseObserver.onNext(response.build());
+        responseObserver.onCompleted();
     }
 
     @Override
