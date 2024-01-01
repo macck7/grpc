@@ -7,9 +7,8 @@ This is a simple example project demonstrating how to use gRPC with Spring Boot 
 - `src/main/proto`: Contains the Protocol Buffers (protobuf) file defining the gRPC service.
 - `src/main/java`: Java source code for the Spring Boot application and the gRPC service implementation.
 - `pom.xml`: Maven project configuration file.
-  
 
-## BloomRPC can be used aas xclient for grpc p4roject
+## BloomRPC can be used as xclient for grpc p4roject
 
 ## Prerequisites
 
